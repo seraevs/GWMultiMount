@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scheduler>
+
+<!--The time for run task: Hour="14" Minutes ="05" Seconds="0"-->
+  <Setup>
+    <Time Hour="14" Minutes ="05" Seconds="0"/>
+  </Setup>
+
+<!---DateTime for day of month-->
+  <Day_of_months>
+    <Day_of_month day1="13"/>
+    <Day_of_month day2="7"/>
+  </Day_of_months> 
+
+<!--The status autoscan: DISABLED or ENABLED --> 
+  <Disable_tasks>
+    <Disabled_tasks disable_enable="DISABLED"/>
+  </Disable_tasks>
+  
+  <!--The status OS autoscan: DISABLED or ENABLED --> 
+  <OS_Scaner>
+    <OS_Scans linux_scan="DISABLED"/>
+    <OS_Scans windows_scan="DISABLED"/>
+    <OS_Scans linux_windows_scan="DISABLED"/>
+    <OS_Scans storage_scan="DISABLED"/>
+  </OS_Scaner>
+</Scheduler>
