@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'GWMultiMount/MultiScan-1/MultiScan-1.sln'
+  solution: 'MultiScan-1/MultiScan-1.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
