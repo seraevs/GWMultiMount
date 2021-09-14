@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/MultiScan-1/bin/Debug
+/MultiScan-1/obj
+/MultiScan-1/.vs/MultiScan-1/v16
